@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Medical Professional Login</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9f2f1fcf1c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+
+    <script>
+        function message() {
+            var docId = document.getElementById("docid").value;
+            var password = document.getElementById("password").value;
+
+            if (docId === "admin" && password === "1234") {
+                alert("Login successful!");
+                window.location.href = "registry.html";
+            } else {
+                alert("Invalid doctor ID or password. Please try again.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="title1">
+        <nav class="navbar navbar-expand-lg nv">
+            <div class="container-fluid">
+                <img src="blueminimalistmedicallogo-real.png" alt="TrueApp" width="150" height="65" style="vertical-align:top">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="patientdetails.html">Patient Registration</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="registration-form">
+        <form>
+            <h2>Medical Professional Login</h2>
+            <hr>
+            <div class="form-icon">
+                <span><i class="fa-solid fa-briefcase-medical"></i></span>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control item" id="docid" placeholder="Doctor ID" required>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control item" id="password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-block create-account" onclick="message()">Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
