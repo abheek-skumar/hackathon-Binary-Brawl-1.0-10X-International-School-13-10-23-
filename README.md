@@ -1,17 +1,26 @@
 # hackathon-Binary-Brawl-1.0-10X-International-School-13-10-23-
 
-team members- Abheek Skumar, Rithwik Ravikumar, Robin Isac
+Project Title: TrueApp - Healthcare and Emergency Medical Information
 
-Problem statement:Healthcare and equity
-we built trueapp useing html, css, connecting it to firebase database(my personal account)
-trueapp can be used to upload patient's information to the database(information like allergies, aadhar, other health issues, age, dob,etc.)
+Problem Statement:
 
-in case of an emergency, if the patient isn't able to provide information regarding their allergies to the doctor(eg. unconsious), the doctor can access the database to view their medical history.
+In healthcare, timely access to a patient’s medical history can be critical, especially in emergencies where the patient is unable to communicate important information. TrueApp aims to bridge this gap by providing an easy-to-use platform that allows patients to upload essential medical details, including allergies, Aadhar number, health issues, age, and date of birth. In case of an emergency (e.g., if the patient is unconscious), doctors can quickly access this information from the database to ensure appropriate treatment.
 
+Description:
 
-doctor loging:
-User name: admin
-pass: 1234
+TrueApp is a healthcare application built using HTML, CSS, and connected to a Firebase database (hosted on my personal account). The app allows users to upload important health data that can be accessed by medical professionals when needed. In an emergency situation, where a patient may not be able to provide their medical history, doctors can log in and retrieve the patient's information to ensure timely and accurate treatment.
 
-firebase database:
-https://console.firebase.google.com/project/hackathon-mediacal-database/overview(on abheekskumar@gmail.com)
+Features:
+
+Securely upload patient’s medical information to the Firebase database.
+Doctors can access the database to view patient’s medical history during emergencies.
+Admin login credentials for doctor access:
+Username: admin
+Password: 1234
+Firebase Database: Firebase Project (Hosted on abheekskumar@gmail.com)
+
+Team Members:
+
+Abheek Skumar
+Rithwik Ravikumar
+Robin Isac
