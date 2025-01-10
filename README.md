@@ -1,5 +1,5 @@
-# hackathon-Binary-Brawl-1.0-10X-International-School-13-10-23-
-
+# TrueApp - Emergency Medical Information Platform(Binary Brawl 1.0) Hackathon (13-10-23)
+Old Title:hackathon-Binary-Brawl-1.0-10X-International-School-13-10-23-
 Project Title: TrueApp - Healthcare and Emergency Medical Information
 
 Problem Statement:
